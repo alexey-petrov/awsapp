@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import { Shell } from "ui";
 import { CardPicker } from "cardpicker/CardPicker";
