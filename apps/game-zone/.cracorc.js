@@ -11,8 +11,10 @@ module.exports = () => ({
           name: "gamezone",
           filename: "remoteEntry.js",
           remotes: {
-            cardpicker: "cardpicker@http://localhost:3000/remoteEntry.js",
-            topnumber: "topnumber@http://localhost:3002/remoteEntry.js",
+            cardpicker:
+              "cardpicker@https://main.d2e25t4zsich1t.amplifyapp.com/apps/cardpicker/build/remoteEntry.js",
+            topnumber:
+              "topnumber@https://main.d2e25t4zsich1t.amplifyapp.com/apps/topnumber/build/remoteEntry.js",
           },
           shared: {
             ...deps,
