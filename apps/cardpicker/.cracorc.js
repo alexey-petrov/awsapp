@@ -11,7 +11,7 @@ module.exports = () => ({
           name: "cardpicker",
           filename: "remoteEntry.js",
           exposes: {
-            "./CardPicker": "./src/components/CardPicker/CardPicker.tsx",
+            "./CardPicker": "./src/CardPicker.tsx",
           },
           shared: {
             ...deps,

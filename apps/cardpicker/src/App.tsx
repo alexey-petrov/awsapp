@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Shell } from "ui";
-import { CardPicker } from "./components/CardPicker/CardPicker";
+import { CardPicker } from "./CardPicker";
 
 function App() {
   return (
